@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geography Quiz</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Geography Quiz Challenge</h1>
+        <div id="timer">Time Left: <span id="time">30</span> seconds</div>
+        <div id="quiz"></div> <!-- This div will hold the quiz questions -->
+        <button id="next" onclick="nextQuestion()">Next Question</button>
+    </div>
+    
+    <div id="result" class="hidden">
+        <h2 id="score"></h2>
+        <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
